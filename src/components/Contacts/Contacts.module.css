@@ -1,0 +1,54 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.FormBtn {
+  width: 100px;
+  height: 30px;
+  color: #745f79;
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: none;
+  list-style: none;
+  box-shadow: 1px 1px 10px #daadc2;
+  margin-top: 20px;
+}
+
+.FormBtn:hover {
+  box-shadow: 3px 3px 3px rgba(121, 110, 124, 0.87);
+  background-color: rgb(142, 106, 158);
+  color: #e8e5de;
+  border-color: #d0c5d8;
+}
+
+.FormItem {
+  border: 1px solid #373c46;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+}
+
+.ContactListItem {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.ContactListItem button {
+  width: 60px;
+  margin-left: 5px;
+}
+
+p {
+  margin-right: 10px;
+}
+
+.TitlePhoneNumber {
+  font-weight: 600;
+}
