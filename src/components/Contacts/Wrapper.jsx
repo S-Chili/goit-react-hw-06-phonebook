@@ -15,3 +15,4 @@ Wrapper.propTypes = {
   styles: PT.string,
   otherProps: PT.object,
 }
+
