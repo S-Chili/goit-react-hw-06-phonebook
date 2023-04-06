@@ -8,13 +8,13 @@ const persistConfig = {
     storage,
   };
   
-  const rootReduser = combineReducers({
+  const rootReducer = combineReducers({
     contacts: persistReducer(persistConfig, contactsSlice),
   });
  
   
   export const store = configureStore({
-    reducer: rootReduser,
+    reducer: rootReducer,
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({
       serializableCheck: {

@@ -20,8 +20,6 @@ export default function App() {
     );
   }, [contacts, filter]);
 
-  console.log('filteredContacts',filteredContacts);
-
   return (
     <div>
       <Wrapper>
